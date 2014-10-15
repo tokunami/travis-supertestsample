@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var app = express();
 var router = express.Router();
 
-var array = [{"apple": "ringo"},{"peach": "momo"}];
+var array = [];
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
